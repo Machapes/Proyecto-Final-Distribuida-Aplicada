@@ -1,0 +1,7 @@
+# Simulación de lanzamiento de 3 dados
+FUNCTION: resultado = dado1 + dado2 + dado3
+ITERATIONS: 1000
+
+VAR: dado1, uniform, min=1, max=6
+VAR: dado2, uniform, min=1, max=6
+VAR: dado3, uniform, min=1, max=6

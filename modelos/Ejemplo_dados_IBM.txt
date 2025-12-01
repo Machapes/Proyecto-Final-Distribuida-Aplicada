@@ -1,0 +1,6 @@
+# Simulacion de lanzamiento de dos dados IBM
+FUNCTION: suma = dado1 + dado2
+ITERATIONS: 10000
+
+VAR: dado1, uniform, min=1, max=6
+VAR: dado2, normal, min=1, max=6
